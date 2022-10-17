@@ -647,14 +647,9 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.6);
-
-  transition-property: outline;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
+  color: var(--secondary-white-color);
 }
 
-.form-input:hover,
 .form-input:focus {
   outline: 1px solid var(--accent-color);
 }
@@ -793,13 +788,8 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   cursor: pointer;
-
-  transition-property: outline;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
 }
 
-.form-field input:hover,
 .form-field input:focus {
   outline: 1px solid var(--accent-color);
 }
@@ -825,17 +815,12 @@ img {
 
 .icon-svg-modal {
   position: absolute;
-  top: 14px;
-  left: 15px;
+  top: 11px;
+  left: 12px;
   width: 18px;
   height: 18px;
-
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
 }
 
-.form-field input:hover + .icon-svg-modal,
 .form-field input:focus + .icon-svg-modal {
   fill: var(--accent-color);
 }
@@ -846,13 +831,11 @@ img {
   flex-direction: column;
 }
 
-.form-field-textarea textarea:hover,
 .form-field-textarea textarea:focus {
   outline: 1px solid var(--accent-color);
 }
 
 .form-label-textarea {
-  margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -861,20 +844,13 @@ img {
   color: #757575;
 }
 
-.form-field-textarea {
-  margin-bottom: 20px;
-}
-
 textarea {
+  margin-top: 4px;
   resize: none;
   width: 100%;
   min-height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
-  transition-property: color, outline;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
 }
 
 .form-field-textarea textarea {
